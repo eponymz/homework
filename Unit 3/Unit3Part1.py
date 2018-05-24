@@ -1,21 +1,29 @@
 def main():
     hourlytemps=[]
 
-
+    # this function collects input from the user and stores entries in a list.
     def GetTemperatures(hourlytemps):
+        # defines the max length of the list i.e. 24, one for each hour
         while True:
+            # counter to print out hour next to temperature result
             for hours in range(-1, 24):
                 hours += 1
+                # collection happens here as well as appending ":00" purely for style reasons
                 if hours < 10:
                     entry = raw_input("Enter the temperature for " + "0" + str(hours) + ":00. >> ")
                     try:
+                        # validates that the entry is within the range of -50 - 130 // appends if true
+                        # defines entry as int()
                         valid = bool(int(-50) < int(entry) < int(130))
                         if valid:
                             hourlytemps.append(int(entry))
                         else:
+                            # returns a prompt if validation fails
                             raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
+                            # continues while loop
                             continue
                     except ValueError:
+                        # catches value error if alpha characters are entered
                         entry = raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
                         try:
                             valid = bool(int(-50) < int(entry) < int(130))
@@ -25,7 +33,7 @@ def main():
                         except ValueError:
                             print "You must enter a number in the valid range. Please restart program."
                             return
-
+                # this portion of the while loop is exactly the same as the if statement. Difference is it does not prepend a 0
                 else:
                     entry = raw_input("Enter the temperature for " + str(hours) + ":00. >> ")
                     try:
@@ -47,6 +55,7 @@ def main():
                             return
 
             break
+        # the following statement was in place for troubleshooting an IndexError I had run into
         print "There are " + str(len(hourlytemps)) + " total entries."
     GetTemperatures(hourlytemps)
 
