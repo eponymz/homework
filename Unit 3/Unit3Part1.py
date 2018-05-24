@@ -17,9 +17,18 @@ def main():
                         valid = bool(int(-50) < int(entry) < int(130))
                         if valid:
                             hourlytemps.append(int(entry))
+
                         else:
                             # returns a prompt if validation fails
-                            raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
+                            entry = raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
+                            try:
+                                valid = bool(int(-50) < int(entry) < int(130))
+                                if valid:
+                                    hourlytemps.append(int(entry))
+
+                            except ValueError:
+                                print "You must enter a number in the valid range. Please restart program."
+                                return
                             # continues while loop
                             continue
                     except ValueError:
@@ -29,7 +38,7 @@ def main():
                             valid = bool(int(-50) < int(entry) < int(130))
                             if valid:
                                 hourlytemps.append(int(entry))
-                                continue
+
                         except ValueError:
                             print "You must enter a number in the valid range. Please restart program."
                             return
@@ -40,8 +49,17 @@ def main():
                         valid = bool(int(-50) < int(entry) < int(130))
                         if valid:
                             hourlytemps.append(int(entry))
+
                         else:
-                            raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
+                            entry = raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
+                            try:
+                                valid = bool(int(-50) < int(entry) < int(130))
+                                if valid:
+                                    hourlytemps.append(int(entry))
+
+                            except ValueError:
+                                print "You must enter a number in the valid range. Please restart program."
+                                return
                             continue
                     except ValueError:
                         entry = raw_input("Please enter a valid temperature between -50 and 130 for " + str(hours) + ". >> ")
@@ -49,7 +67,7 @@ def main():
                             valid = bool(int(-50) < int(entry) < int(130))
                             if valid:
                                 hourlytemps.append(int(entry))
-                                continue
+
                         except ValueError:
                             print "You must enter a number in the valid range. Please restart program."
                             return
