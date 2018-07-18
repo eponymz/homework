@@ -3,7 +3,7 @@ def main():
     donors = list()
     # the print was used in testing out formatting
     # print donors
-    # this code assumes 5 donors were entered. Indefinite loop *could* be used here with appropriate break statements
+    # this code assumes 4 donors were entered. Indefinite loop *could* be used here with appropriate break statements
     for x in xrange(4):
         x = 0
         # the following three lines accept input and store the value to a variable
@@ -14,7 +14,7 @@ def main():
         donors.append(list([name, address, contact]))
         x += 1
 
-    # loops over the length of donors[] and prints the value for each sub elist
+    # loops over the length of donors[] and prints the value for each sub list
     for i in range(len(donors)):
         for j in xrange(3):
             print (donors[i][j])
