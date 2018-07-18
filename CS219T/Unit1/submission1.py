@@ -14,6 +14,7 @@ def main():
         donors.append(list([name, address, contact]))
         x += 1
 
+    # loops over the length of donors[] and prints the value for each sub elist
     for i in range(len(donors)):
         for j in xrange(3):
             print (donors[i][j])
