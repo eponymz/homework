@@ -47,9 +47,6 @@ class Boat(Vehicle):
         self.length = raw_input("Boat length: ")
 
 
-vehicles = list()
-
-
 def selectVehicle():
     vehicleType = raw_input("What type of vehicle are you adding? ")
     if vehicleType == 'car':
@@ -72,7 +69,7 @@ def selectVehicle():
         if invalid == 'y':
             selectVehicle()
         elif invalid == 'n':
-            selectVehicle()
+            print ('Exiting...')
         else:
             print ('Invalid option entered.. Please restart program..')
             return
@@ -83,8 +80,7 @@ def addAnother():
     if another == 'y':
         selectVehicle()
     elif another == 'n':
-        for i in range(len(vehicles)):
-            print vehicles
+        print ('Exiting ...')
         return
     else:
         addAnother()
