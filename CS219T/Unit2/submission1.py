@@ -64,6 +64,9 @@ for i in range(0, 5):
     customers.append(temp)
 # call to function to prompt for customer info request
 pullCustomer()
+
+print customers
+
 retry = raw_input('Could not find customer.. Try again? y/n')
 if retry == 'y':
     pullCustomer()
