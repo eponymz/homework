@@ -66,7 +66,7 @@ for i in range(0, 5):
 pullCustomer()
 
 
-retry = raw_input('Could not find customer.. Try again? y/n')
+retry = raw_input('Could not find customer.. Try again? y/n ')
 if retry == 'y':
     pullCustomer()
 elif retry == 'n':
