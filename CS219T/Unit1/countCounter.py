@@ -1,6 +1,9 @@
 def main():
 
     envVar1 = 34
+    envVar2 = 80
+    envVar3 = 65
+
     count1 = list([71, 62, 16, 18, 66, 15, 46, 39, 57, 23, 38, 1, 51, 5, 4, 73, 84, 19, 54, 67, 41, 94, 8, 50, 69, 35, 45,
                   90, 55, 31, 56, 95, 82, 0])
     count1.sort()
@@ -15,12 +18,15 @@ def main():
                    95, 79, 2, 37, 34, 14, 99, 88, 18, 6, 85, 43, 56, 65])
     count3.sort()
 
+    print envVar1 == len(count1)
     print count1
     print len(count1)
 
+    print envVar2 == len(count2)
     print count2
     print len(count2)
 
+    print envVar3 == len(count3)
     print count3
     print len(count3)
 
