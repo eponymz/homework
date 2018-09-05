@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a5539a6-025d-455f-bb80-3ab3699fe3d5" name="Default" comment="started another broke ass project">
+    <list default="true" id="2a5539a6-025d-455f-bb80-3ab3699fe3d5" name="Default" comment="unit4 submission 2 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS219T/Unit4/Submission2/statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS219T/Unit4/Submission2/statement.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +56,12 @@
         <counts>
           <entry key="dummy" value="11" />
           <entry key="py" value="3199" />
-          <entry key="txt" value="56" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="Python" value="3199" />
         </counts>
       </usages-collector>
@@ -452,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536039780894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="unit4 submission 2 done">
+      <created>1536108929720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536108929720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -562,7 +568,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished submission doc" />
     <MESSAGE value="started another broke ass project" />
-    <option name="LAST_COMMIT_MESSAGE" value="started another broke ass project" />
+    <MESSAGE value="unit4 submission 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit4 submission 2 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
