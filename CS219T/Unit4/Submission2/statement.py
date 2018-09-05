@@ -105,82 +105,45 @@ class BankStatement:
 def start():
     myStatement = BankStatement()
     myStatement.setBegEndBals(15.92)
-    getSetAmountVal = float(raw_input('Enter amount: '))
-    getSetCodeVal = raw_input('Was this a Deposit("D") or a Withdrawal("W")?\n')
-    getSetNoteVal = raw_input('Leave a one word note to describe this transaction:\n')
 
-    i = 0
-    while i < 5:
-        t = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
-        myStatement.insertTransaction(t)
-        i += i
-        continue
-        # print i
-        # return i
+    # t = []
+    # i = 0
+    # while i < 5:
+    #     t[i] = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
+    #     myStatement.insertTransaction(t[i])
+    #     i += 1
 
-    # T1 = Transaction()
-    # T1.loadTransaction()
-    # # T1.setAmount(getSetAmountVal)
-    # # T1.setCode(getSetCodeVal)
-    # # T1.setNote(getSetNoteVal)
-    #
-    # T2 = Transaction(float(raw_input('Enter amount: >>')), 'W', "Rent")
-    #
-    # T3 = Transaction()
-    # T3.setAmount(float(raw_input('Enter amount: >>')))
-    # T3.setCode('D')
-    # T3.setNote('Tips')
-    #
-    # T4 = Transaction(float(raw_input('Enter amount: >>')), 'D', "Gift")
-    #
-    # T5 = Transaction()
-    # T5.setAmount(float(raw_input('Enter amount: >>')))
-    # T5.setCode('W')
-    # T5.setNote('Date')
+    # t1 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
+    t1 = Transaction()
+    t1.loadTransaction()
+    myStatement.insertTransaction(t1)
 
-    # T1 = Transaction()
-    # T1.loadTransaction()
-    # # T1.setAmount(getSetAmountVal)
-    # # T1.setCode(getSetCodeVal)
-    # # T1.setNote(getSetNoteVal)
+    t2 = Transaction()
+    t2.loadTransaction()
+    myStatement.insertTransaction(t2)
+
+    t3 = Transaction()
+    t3.loadTransaction()
+    myStatement.insertTransaction(t3)
+
+    t4 = Transaction()
+    t4.loadTransaction()
+    myStatement.insertTransaction(t4)
+
+    t5 = Transaction()
+    t5.loadTransaction()
+    myStatement.insertTransaction(t5)
+
+    # t3 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
+    # myStatement.insertTransaction(t3)
     #
-    # T2 = Transaction(float(raw_input('Enter amount: >>')), 'W', "Rent")
+    # t4 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
+    # myStatement.insertTransaction(t4)
     #
-    # T3 = Transaction()
-    # T3.setAmount(float(raw_input('Enter amount: >>')))
-    # T3.setCode('D')
-    # T3.setNote('Tips')
-    #
-    # T4 = Transaction(float(raw_input('Enter amount: >>')), 'D', "Gift")
-    #
-    # T5 = Transaction()
-    # T5.setAmount(float(raw_input('Enter amount: >>')))
-    # T5.setCode('W')
-    # T5.setNote('Date')
-    #
-    # T6 = Transaction(float(raw_input('Enter amount: >>')), 'D', "Loan")
-    #
-    # T7 = Transaction()
-    # T7.setAmount(float(raw_input('Enter amount: >>')))
-    # T7.setCode('W')
-    # T7.setNote('Loan Payment')
-    #
-    # T8 = Transaction(float(raw_input('Enter amount: >>')), 'W', "Groceries")
-    #
-    # T9 = Transaction()
-    # T9.loadTransaction()
-    #
-    # myStatement.insertTransaction(i)
-    # myStatement.insertTransaction(T2)
-    # myStatement.insertTransaction(T3)
-    # myStatement.insertTransaction(T4)
-    # myStatement.insertTransaction(T5)
-    # myStatement.insertTransaction(T6)
-    # myStatement.insertTransaction(T7)
-    # myStatement.insertTransaction(T8)
+    # t5 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
+    # myStatement.insertTransaction(t5)
 
     myStatement.displayResults()
-    #
     myStatement.arrangeTransactions()
     myStatement.printArranged()
 
