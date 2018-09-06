@@ -113,7 +113,6 @@ def start():
     #     myStatement.insertTransaction(t[i])
     #     i += 1
 
-    # t1 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
     t1 = Transaction()
     t1.loadTransaction()
     myStatement.insertTransaction(t1)
@@ -133,15 +132,6 @@ def start():
     t5 = Transaction()
     t5.loadTransaction()
     myStatement.insertTransaction(t5)
-
-    # t3 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
-    # myStatement.insertTransaction(t3)
-    #
-    # t4 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
-    # myStatement.insertTransaction(t4)
-    #
-    # t5 = Transaction(getSetAmountVal, getSetCodeVal, getSetNoteVal)
-    # myStatement.insertTransaction(t5)
 
     myStatement.displayResults()
     myStatement.arrangeTransactions()
