@@ -69,7 +69,7 @@ class BankStatement:
         print("The beginning transaction was: $" + str(self.__BegBal))
 
         for index, t in enumerate(self.__TransactionLog):
-            print("Transaction: " + str(index + 1) + " was a " +
+            print("\nTransaction: " + str(index + 1) + " was a " +
                   t.getCode() + " amount: $" + str(t.getAmount()) + " for " + t.getNote())
 
             print("Running Bal: $" + str(self.__RunningBalLog[index]))
@@ -95,7 +95,7 @@ class BankStatement:
 
     # Prints the arranged transactions
     def printArranged(self):
-        print("Printing the Deposits and Withdrawals as a group:")
+        print("\nPrinting the Deposits and Withdrawals as a group:\n")
         for index, t in enumerate(self.__ArrangedLog):
             print("Transaction was a " + t.getCode() +
                   " amount: $" + str(t.getAmount()) + " for " + t.getNote())
