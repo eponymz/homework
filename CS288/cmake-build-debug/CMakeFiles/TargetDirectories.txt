@@ -1,3 +1,3 @@
-/Users/isabey/CLionProjects/CS288/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/isabey/CLionProjects/CS288/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/isabey/CLionProjects/CS288/cmake-build-debug/CMakeFiles/CS288.dir
+/Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug/CMakeFiles/CS288.dir
