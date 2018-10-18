@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/main.cpp">
+		<Unit filename="/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/main.cpp">
 			<Option target="CS288"/>
 		</Unit>
 		<Unit filename="/Users/isabey/Desktop/shit/homeworkz/CS288/CMakeLists.txt">

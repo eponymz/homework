@@ -57,27 +57,27 @@ include CMakeFiles/CS288.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CS288.dir/flags.make
 
-CMakeFiles/CS288.dir/Unit1/main.cpp.o: CMakeFiles/CS288.dir/flags.make
-CMakeFiles/CS288.dir/Unit1/main.cpp.o: ../Unit1/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS288.dir/Unit1/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS288.dir/Unit1/main.cpp.o -c /Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/main.cpp
+CMakeFiles/CS288.dir/Unit2/main.cpp.o: CMakeFiles/CS288.dir/flags.make
+CMakeFiles/CS288.dir/Unit2/main.cpp.o: ../Unit2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS288.dir/Unit2/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS288.dir/Unit2/main.cpp.o -c /Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/main.cpp
 
-CMakeFiles/CS288.dir/Unit1/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS288.dir/Unit1/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/main.cpp > CMakeFiles/CS288.dir/Unit1/main.cpp.i
+CMakeFiles/CS288.dir/Unit2/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS288.dir/Unit2/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/main.cpp > CMakeFiles/CS288.dir/Unit2/main.cpp.i
 
-CMakeFiles/CS288.dir/Unit1/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS288.dir/Unit1/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/main.cpp -o CMakeFiles/CS288.dir/Unit1/main.cpp.s
+CMakeFiles/CS288.dir/Unit2/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS288.dir/Unit2/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/main.cpp -o CMakeFiles/CS288.dir/Unit2/main.cpp.s
 
 # Object files for target CS288
 CS288_OBJECTS = \
-"CMakeFiles/CS288.dir/Unit1/main.cpp.o"
+"CMakeFiles/CS288.dir/Unit2/main.cpp.o"
 
 # External object files for target CS288
 CS288_EXTERNAL_OBJECTS =
 
-CS288: CMakeFiles/CS288.dir/Unit1/main.cpp.o
+CS288: CMakeFiles/CS288.dir/Unit2/main.cpp.o
 CS288: CMakeFiles/CS288.dir/build.make
 CS288: CMakeFiles/CS288.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CS288"

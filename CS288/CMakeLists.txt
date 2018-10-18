@@ -3,4 +3,10 @@ project(CS288)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS288 Unit1/main.cpp)
+# You will want to make sure the correct executable line is active to run the unit you are interested in.
+
+# add_executable(CS288 Unit1/main.cpp)
+add_executable(CS288 Unit2/main.cpp)
+# add_executable(CS288 Unit3/main.cpp)
+# add_executable(CS288 Unit4/main.cpp)
+# add_executable(CS288 Unit5/main.cpp)
