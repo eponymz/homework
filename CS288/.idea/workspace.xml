@@ -11,21 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42b5dcec-3450-45f3-8294-81e3d2a77e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit2/main.cpp" afterDir="false" />
+    <list default="true" id="42b5dcec-3450-45f3-8294-81e3d2a77e4b" name="Default Changelist" comment="added commented add_executable paths to cmake. Each unit will contain a main.cpp and headers that relate to the assignment.">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/isabey.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/isabey.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Unit1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Unit2/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/Unit1/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/Unit1/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS288.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS288" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS288" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS288.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS288.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -81,47 +78,88 @@
     <session id="-1652947926">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="2" />
-          <entry key="txt" value="4" />
+          <entry key="cpp" value="3" />
+          <entry key="h" value="2" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="4" />
-          <entry key="ObjectiveC" value="2" />
+          <entry key="CMakeLists.txt" value="5" />
+          <entry key="ObjectiveC" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="88" />
-          <entry key="txt" value="188" />
+          <entry key="cpp" value="120" />
+          <entry key="txt" value="315" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="147" />
-          <entry key="ObjectiveC" value="88" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="CMakeLists.txt" value="149" />
+          <entry key="ObjectiveC" value="120" />
+          <entry key="PLAIN_TEXT" value="166" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit2/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#55#74#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unit1/Fibonacci.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Unit1/Calculator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unit1/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -140,6 +178,7 @@
         <option value="$PROJECT_DIR$/Unit1/Calculator.h" />
         <option value="$PROJECT_DIR$/Unit1/main.cpp" />
         <option value="$PROJECT_DIR$/Unit2/main2.cpp" />
+        <option value="$PROJECT_DIR$/Unit2/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -151,10 +190,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1440" />
-    <option name="y" value="616" />
-    <option name="width" value="1011" />
-    <option name="height" value="1047" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,12 +209,18 @@
             <path>
               <item name="CS288" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS288" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS288" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS288" type="462c0819:PsiDirectoryNode" />
               <item name="Unit2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +277,10 @@
       <updated>1539785465523</updated>
       <workItem from="1539785467112" duration="4726000" />
       <workItem from="1539801516383" duration="938000" />
-      <workItem from="1539803225465" duration="8465000" />
+      <workItem from="1539803225465" duration="9598000" />
+      <workItem from="1540302515080" duration="193000" />
+      <workItem from="1540357323626" duration="216000" />
+      <workItem from="1540390340946" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="Unit1 is really done now. Submitted even.">
       <created>1539804311547</created>
@@ -244,30 +289,37 @@
       <option name="project" value="LOCAL" />
       <updated>1539804311547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added commented add_executable paths to cmake. Each unit will contain a main.cpp and headers that relate to the assignment.">
+      <created>1539877043793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539877043793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14129000" />
+    <option name="totallyTimeSpent" value="16865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="-713" width="1440" height="2560" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12088698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.092136614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297189" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2935743" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.41167882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3297189" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3297189" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32919708" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297189" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.2935743" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3297189" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297189" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -319,7 +371,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Unit1 is really done now. Submitted even." />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit1 is really done now. Submitted even." />
+    <MESSAGE value="added commented add_executable paths to cmake. Each unit will contain a main.cpp and headers that relate to the assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="added commented add_executable paths to cmake. Each unit will contain a main.cpp and headers that relate to the assignment." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp" />
@@ -339,47 +392,49 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit1/Calculator.h">
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 19.31.26_usE8X5.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 19.39.10_YwbNyv.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 16.28.57_xcmsJV.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 16.30.56_CEv3RJ.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 16.32.34_cvoCeV.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 16.33.44_rtrr2G.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 16.53.21_Sma87r.png" />
+    <entry file="file://$PROJECT_DIR$/../../../Screenshot_2018-10-22 19.42.47_HNdOf1.png" />
+    <entry file="file://$PROJECT_DIR$/Unit2/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-end-line="14" selection-end-column="18" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#54#73#0" expanded="true" />
+            <element signature="e#55#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="154">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unit1/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#55#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Unit1/Fibonacci.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="434">
           <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit2/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Unit1/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#55#74#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit1/Calculator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
