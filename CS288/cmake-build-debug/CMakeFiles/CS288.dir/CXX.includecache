@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/Calculator.h
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Definition.h
 iostream
 -
 cstdlib
@@ -16,17 +16,23 @@ ctime
 string
 -
 
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/Fibonacci.h
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Strings.h
 iostream
 -
-
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/main.cpp
-Calculator.h
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/Calculator.h
-Fibonacci.h
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit1/Fibonacci.h
+cstdlib
+-
+ctime
+-
 string
 -
+
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/main.cpp
 iostream
 -
+string
+-
+Strings.h
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Strings.h
+Definition.h
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Definition.h
 

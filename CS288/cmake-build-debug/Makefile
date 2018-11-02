@@ -123,32 +123,32 @@ CS288/fast:
 	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/build
 .PHONY : CS288/fast
 
-Unit1/main.o: Unit1/main.cpp.o
+Unit2/main.o: Unit2/main.cpp.o
 
-.PHONY : Unit1/main.o
+.PHONY : Unit2/main.o
 
 # target to build an object file
-Unit1/main.cpp.o:
-	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit1/main.cpp.o
-.PHONY : Unit1/main.cpp.o
+Unit2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit2/main.cpp.o
+.PHONY : Unit2/main.cpp.o
 
-Unit1/main.i: Unit1/main.cpp.i
+Unit2/main.i: Unit2/main.cpp.i
 
-.PHONY : Unit1/main.i
+.PHONY : Unit2/main.i
 
 # target to preprocess a source file
-Unit1/main.cpp.i:
-	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit1/main.cpp.i
-.PHONY : Unit1/main.cpp.i
+Unit2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit2/main.cpp.i
+.PHONY : Unit2/main.cpp.i
 
-Unit1/main.s: Unit1/main.cpp.s
+Unit2/main.s: Unit2/main.cpp.s
 
-.PHONY : Unit1/main.s
+.PHONY : Unit2/main.s
 
 # target to generate assembly for a file
-Unit1/main.cpp.s:
-	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit1/main.cpp.s
-.PHONY : Unit1/main.cpp.s
+Unit2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit2/main.cpp.s
+.PHONY : Unit2/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS288"
-	@echo "... Unit1/main.o"
-	@echo "... Unit1/main.i"
-	@echo "... Unit1/main.s"
+	@echo "... Unit2/main.o"
+	@echo "... Unit2/main.i"
+	@echo "... Unit2/main.s"
 .PHONY : help
 
 

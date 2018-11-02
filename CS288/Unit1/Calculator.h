@@ -7,10 +7,7 @@
 using namespace std;
 
 bool again;
-int opDecision;
-int result;
-int num1;
-int num2;
+int opDecision, result, num1, num2;
 
 class Calculator {
 public:
