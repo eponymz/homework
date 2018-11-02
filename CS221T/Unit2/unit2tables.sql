@@ -23,7 +23,7 @@ create table advisors
 
 create table classes
 (
-	class_id int NOT NULL PRIMARY KEY,
+	class_id int NOT NULL IDENTITY(1,1) PRIMARY KEY,
 	class_code varchar(25),
 	class_name varchar(50),
 	class_description text
@@ -31,7 +31,7 @@ create table classes
 
 create table student_classes
 (
-	student_class_id int NOT NULL PRIMARY KEY,
+	student_class_id int NOT NULL IDENTITY(1,1) PRIMARY KEY,
 	student_id int NOT NULL, /*FOREIGN KEY references students(student_id)*/
 	class_id int NOT NULL, /*FOREIGN KEY references classes(class_id)*/
 	class_start_dt date NOT NULL, /*start date of class != student start date. no reference made*/
