@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    cout << "Welcome to Unit 2. Which file would you like to run? (string/definition)";
+    cout << "Welcome to Unit 2. Which file would you like to run? (string/definition)" << endl;
     string fileChoice;
     cin >> fileChoice;
     if (fileChoice == "string") {
@@ -18,6 +18,11 @@ int main() {
     else if (fileChoice == "definition") {
         Definition definition;
         definition.defMain();
+        main();
+    }
+    else
+    {
+        cout << "That is an invalid option" << endl;
         main();
     }
 }

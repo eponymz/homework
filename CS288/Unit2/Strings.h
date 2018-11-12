@@ -14,7 +14,7 @@ bool again;
 class Strings {
 public:
     void repeat() {
-        cout << "Would you like to perform another operation (y or n)? ";
+        cout << "Would you like to perform another operation (y or n)? " << endl;
         char againResp;
         cin >> againResp;
         if (againResp == 'y')
@@ -28,6 +28,8 @@ public:
         cout << "Great! Comparing..." << endl;
         if (str1 != str2)
             cout << str1 << " is not " << str2 << endl;
+        else if (str1 == str2)
+            cout << "Perfect Match!" << endl;
         repeat();
     }
 
@@ -39,26 +41,45 @@ public:
         repeat();
     }
 
-    void length(string str3)
+    void length(string final)
     {
-        cout << "Enter the string to check. >> " << endl;
-        cin >> str3;
         cout << "Checking length..." << endl;
-        cout << str3.length() << endl;
+        cout << final.length() << endl;
+        repeat();
+    }
+
+    void reverseString(string revFinal)
+    {
+        reverse(revFinal.begin(), revFinal.end());
+        cout << "The reverse is: " << endl << revFinal << endl;
+        repeat();
     }
 
     void execOp(int opChoice) {
-        cout << "Enter the first string. >> ";
-        cin >> str1;
-        cout << "Enter the second string. >> ";
-        cin >> str2;
+        string str4, final, revStartString, str5, revFinal;
         switch(opChoice) {
             case 1:
+                cout << "Enter the first string. >> ";
+                cin >> str1;
+                cout << "Enter the second string. >> ";
+                cin >> str2;
                 return compare(str1, str2);
             case 2:
+                cout << "Enter the first string. >> ";
+                cin >> str1;
+                cout << "Enter the second string. >> ";
+                cin >> str2;
                 return concat(str1, str2);
             case 3:
-                return length(str3);
+                cout << "Enter the string to check. >> " << endl;
+                cin >> str3 && getline(cin,str4);
+                final = str3 + str4;
+                return length(final);
+            case 4:
+                cout << "What would you like to reverse?" << endl;
+                cin >> revStartString && getline(cin, str5);
+                revFinal = revStartString + str5;
+                return reverseString(revFinal);
             default:
                 cout << "Invalid option entered..";
         }
@@ -66,8 +87,8 @@ public:
 
     void operation()
     {
-        cout << "Which string operation would you like to run?\n"
-             << "Options are: (1)compare, (2)concat, (3)length, (4)reverse.";
+        cout << "Which string operation would you like to run?" << endl
+             << "Options are: (1)compare, (2)concat, (3)length, (4)reverse." << endl;
         int response;
         cin >> response;
 
