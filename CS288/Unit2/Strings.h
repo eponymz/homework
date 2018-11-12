@@ -77,7 +77,9 @@ public:
                 return length(final);
             case 4:
                 cout << "What would you like to reverse?" << endl;
+                // this grabs the entire line after the initial word
                 cin >> revStartString && getline(cin, str5);
+                // concatenate the 2 vars together in one string var
                 revFinal = revStartString + str5;
                 return reverseString(revFinal);
             default:
