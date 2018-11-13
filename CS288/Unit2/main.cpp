@@ -31,7 +31,7 @@ int main() {
 
         // instantiation of Vertebrate object using variables from user entry.
         Vertebrate newAnimal(animal, backBone, mammal, isExtinct, envHabitat);
-        cout << "Here's what you have told me about " << newAnimal.getAniMal() << endl;
+        cout << "Here's what you have told me about " << newAnimal.getAniMal() << "s" << endl;
         cout << animal << "s have backbones? " << newAnimal.getBackBone() << endl;
         cout << animal << "s are mammals? " << newAnimal.getIsMam() << endl;
         cout << "Are " << animal << "s extinct? " << newAnimal.getExtinct() << endl;
