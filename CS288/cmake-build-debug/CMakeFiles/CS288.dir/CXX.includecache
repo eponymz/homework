@@ -6,33 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Definition.h
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit3/Vertebrates.h
 iostream
--
-cstdlib
--
-ctime
 -
 string
 -
 
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Strings.h
-iostream
--
-cstdlib
--
-ctime
--
-string
--
-
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/main.cpp
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit3/main.cpp
 iostream
 -
 string
 -
-Strings.h
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Strings.h
-Definition.h
-/Users/isabey/Desktop/shit/homeworkz/CS288/Unit2/Definition.h
+map
+-
+Vertebrates.h
+/Users/isabey/Desktop/shit/homeworkz/CS288/Unit3/Vertebrates.h
 

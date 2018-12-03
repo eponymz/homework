@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/isabey/Desktop/shit/homeworkz/CS288/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/isabey/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ CS288/fast:
 	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/build
 .PHONY : CS288/fast
 
-Unit2/main.o: Unit2/main.cpp.o
+Unit3/main.o: Unit3/main.cpp.o
 
-.PHONY : Unit2/main.o
+.PHONY : Unit3/main.o
 
 # target to build an object file
-Unit2/main.cpp.o:
-	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit2/main.cpp.o
-.PHONY : Unit2/main.cpp.o
+Unit3/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit3/main.cpp.o
+.PHONY : Unit3/main.cpp.o
 
-Unit2/main.i: Unit2/main.cpp.i
+Unit3/main.i: Unit3/main.cpp.i
 
-.PHONY : Unit2/main.i
+.PHONY : Unit3/main.i
 
 # target to preprocess a source file
-Unit2/main.cpp.i:
-	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit2/main.cpp.i
-.PHONY : Unit2/main.cpp.i
+Unit3/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit3/main.cpp.i
+.PHONY : Unit3/main.cpp.i
 
-Unit2/main.s: Unit2/main.cpp.s
+Unit3/main.s: Unit3/main.cpp.s
 
-.PHONY : Unit2/main.s
+.PHONY : Unit3/main.s
 
 # target to generate assembly for a file
-Unit2/main.cpp.s:
-	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit2/main.cpp.s
-.PHONY : Unit2/main.cpp.s
+Unit3/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit3/main.cpp.s
+.PHONY : Unit3/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS288"
-	@echo "... Unit2/main.o"
-	@echo "... Unit2/main.i"
-	@echo "... Unit2/main.s"
+	@echo "... Unit3/main.o"
+	@echo "... Unit3/main.i"
+	@echo "... Unit3/main.s"
 .PHONY : help
 
 
