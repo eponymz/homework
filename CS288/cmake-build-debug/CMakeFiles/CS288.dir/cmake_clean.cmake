@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CS288.dir/Unit3/main.cpp.o"
+  "CMakeFiles/CS288.dir/Unit3/Vehicles.cpp.o"
   "CS288.pdb"
   "CS288"
 )

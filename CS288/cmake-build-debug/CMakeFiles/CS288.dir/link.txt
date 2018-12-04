@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/CS288.dir/Unit3/main.cpp.o  -o CS288 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/CS288.dir/Unit3/main.cpp.o CMakeFiles/CS288.dir/Unit3/Vehicles.cpp.o  -o CS288 

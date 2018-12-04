@@ -7,6 +7,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(CS288 Unit1/main.cpp)
 #add_executable(CS288 Unit2/main.cpp)
-add_executable(CS288 Unit3/main.cpp Unit3/Vertebrates.h)
+add_executable(CS288 Unit3/main.cpp Unit3/Vertebrates.h Unit3/Vehicles.h)
 #add_executable(CS288 Unit4/main.cpp)
 #add_executable(CS288 Unit5/main.cpp)

@@ -123,6 +123,33 @@ CS288/fast:
 	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/build
 .PHONY : CS288/fast
 
+Unit3/Vehicles.o: Unit3/Vehicles.cpp.o
+
+.PHONY : Unit3/Vehicles.o
+
+# target to build an object file
+Unit3/Vehicles.cpp.o:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit3/Vehicles.cpp.o
+.PHONY : Unit3/Vehicles.cpp.o
+
+Unit3/Vehicles.i: Unit3/Vehicles.cpp.i
+
+.PHONY : Unit3/Vehicles.i
+
+# target to preprocess a source file
+Unit3/Vehicles.cpp.i:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit3/Vehicles.cpp.i
+.PHONY : Unit3/Vehicles.cpp.i
+
+Unit3/Vehicles.s: Unit3/Vehicles.cpp.s
+
+.PHONY : Unit3/Vehicles.s
+
+# target to generate assembly for a file
+Unit3/Vehicles.cpp.s:
+	$(MAKE) -f CMakeFiles/CS288.dir/build.make CMakeFiles/CS288.dir/Unit3/Vehicles.cpp.s
+.PHONY : Unit3/Vehicles.cpp.s
+
 Unit3/main.o: Unit3/main.cpp.o
 
 .PHONY : Unit3/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS288"
+	@echo "... Unit3/Vehicles.o"
+	@echo "... Unit3/Vehicles.i"
+	@echo "... Unit3/Vehicles.s"
 	@echo "... Unit3/main.o"
 	@echo "... Unit3/main.i"
 	@echo "... Unit3/main.s"

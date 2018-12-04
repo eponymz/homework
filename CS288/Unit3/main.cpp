@@ -10,7 +10,7 @@ int main() {
     cout << "Welcome to Unit 3. Which file would you like to run? (string/construct)" << endl;
     string fileChoice;
     cin >> fileChoice;
-    if (fileChoice == "string") {
+    if (fileChoice == "vehicle") {
         cout << "Not completed yet.." << endl;
         main();
     }
