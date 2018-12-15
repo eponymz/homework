@@ -15,6 +15,10 @@ select * from students;
 ALTER TABLE students
 ALTER COLUMN gpa decimal(3,2);
 
+update students set gpa = 3.25 where student_id = 3;
+
+update students set dob = '1982-04-25' where student_id = 3;
+
 delete from students where student_id in (2,3,4,5);
 
 dbcc checkident (students, reseed, 0);
